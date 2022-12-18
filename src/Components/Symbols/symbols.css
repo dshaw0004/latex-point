@@ -1,0 +1,19 @@
+.table-data {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: space-around;
+	width: 100%;
+}
+
+table {
+	width: 94%;
+}
+td {
+	border-right: 1px solid teal;
+	border-left: 1px solid teal;
+	width: 50%;
+}
+tr {
+	border-top: 1px solid teal;
+	border-bottom: 1px solid teal;
+}
